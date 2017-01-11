@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "description": "Edward's Bootstrap",
   "scripts": {
-    "start": "tsc && concurrently \"tsc -w\" \"lite-server\" ",
+    "start": "concurrently \"lite-server\" ",
     "lite": "tsc",
     "tsc:w": "tsc -w"
   },
@@ -14,10 +14,12 @@
   },
   "dependencies": {
     "bootstrap": "3.3.7",
+    "ekko-lightbox": "4.0.1",
+    "font-awesome": "^4.7.0",
     "gulp": "^3.9.1",
     "gulp-sass": "^3.0.0",
-    "node-sass": "^4.1.1",
-    "jquery": "3.1.1"
+    "jquery": "3.1.1",
+    "node-sass": "^4.1.1"
   },
   "devDependencies": {
     "@types/core-js": "0.9.34",
